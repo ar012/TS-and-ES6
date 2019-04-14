@@ -1,0 +1,11 @@
+npm install -g typescript
+
+tsc -v
+
+tsc main.ts 
+node main.js
+tsc main --watch
+
+
+node main.js  or node main
+
