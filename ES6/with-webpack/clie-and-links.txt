@@ -1,0 +1,28 @@
+commands:
+=========
+npm init -y
+
+npm install --save-dev babel-core babel-preset-env
+
+npm install --save-dev webpack babel-loader
+
+npm install --save-dev webpack-cli -D 
+
+npm run dev
+
+
+npm install fsevents		https://www.npmjs.com/package/fsevents
+
+
+problem: 
+--------
+npm WARN babel-loader@8.0.0 requires a peer of @babel/core@^7.0.0 but none is installed. You must install peer dependencies yourself.
+
+
+Incompatible babel-loader and babel-core versions	
+
+https://stackoverflow.com/questions/52118494/incompatible-babel-loader-and-babel-core-versions
+
+npm install webpack-dev-server --save-dev [or npm install -D webpack-dev-server]                   https://github.com/webpack/webpack-dev-server
+
+npm install --save-dev @babel/plugin-proposal-object-rest-spread
